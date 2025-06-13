@@ -12,7 +12,7 @@ export function Hero() {
 
   const handleDownloadCV = () => {
     // Replace with your actual CV file path
-    window.open('/cv.pdf', '_blank')
+    window.open('/cvmaxi2025.pdf', '_blank')
   }
 
   return (
