@@ -28,7 +28,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg sm:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto">
-            Especializado en Next.js, React y Supabase. Apasionado por crear soluciones web eficientes, escalables y con un diseño limpio.
+            Especializado en Next.js y React. Apasionado por crear soluciones web eficientes, escalables y con un diseño limpio.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">

@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Maxi Nuñez - Desarrollador Full Stack',
-  description: 'Portfolio de Maxi Nuñez, Desarrollador Full Stack especializado en Next.js, React y Supabase',
+  description: 'Portfolio de Maxi Nuñez, Desarrollador Full Stack especializado en Next.js y Reactsssssssss',
   generator: 'Next.js',
 }
 
