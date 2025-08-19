@@ -54,7 +54,7 @@ export function Projects() {
       "subtitle": "Plataforma de Pedidos de Comida Online",
       "icon": ShoppingCart,
       "iconColor": "text-yellow-600",
-      liveUrl: "https://miturno.vercel.app",
+      liveUrl: "https://mi-comida.vercel.app/",
       githubUrl: "#",
     },
   ]
