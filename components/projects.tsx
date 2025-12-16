@@ -10,11 +10,11 @@ export function Projects() {
 
   const mainProjects = [
     {
-      "title": "Mi Turno",
+      "title": "turnar.app",
       "subtitle": "Sistema de Gestión de Turnos",
       "icon": Calendar,
       "iconColor": "text-green-500",
-      liveUrl: "https://miturno.vercel.app",
+      liveUrl: "https://turnar.app",
       githubUrl: "#",
     },
     {
@@ -26,11 +26,11 @@ export function Projects() {
       githubUrl: "#",
     },
     {
-      "title": "Image Optimizer",
-      "subtitle": "Herramienta de Optimización de Imágenes",
+      "title": "rifa-facil.app",
+      "subtitle": "Herramienta de gestión de rifas",
       "icon": BookOpen,
       "iconColor": "text-purple-500",
-      liveUrl: "https://csoptimizer.vercel.app/",
+      liveUrl: "https://rifa-facil.app/",
       githubUrl: "#",
     },
     {
