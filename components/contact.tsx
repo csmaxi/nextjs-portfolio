@@ -52,15 +52,15 @@ export function Contact() {
   ]
 
   return (
-    <section id="contacto" className="py-20 bg-gray-50">
+    <section id="contacto" className="py-20 bg-zinc-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-12">Contacto</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-black mb-12">Contacto</h2>
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">¡Hablemos!</h3>
-              <p className="text-lg text-gray-600 mb-8">
+              <h3 className="text-2xl font-semibold text-black mb-6">¡Hablemos!</h3>
+              <p className="text-lg text-zinc-700 mb-8">
                 Estoy siempre interesado en nuevas oportunidades y proyectos emocionantes. No dudes en contactarme si
                 quieres colaborar o simplemente charlar sobre tecnología.
               </p>
@@ -68,12 +68,12 @@ export function Contact() {
               <div className="space-y-4">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-center space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 shadow-sm">
                       {info.icon}
                     </div>
                     <div>
-                      <p className="font-medium text-gray-900">{info.title}</p>
-                      <a href={info.href} className="text-gray-600 hover:text-blue-600 transition-colors">
+                      <p className="font-medium text-black">{info.title}</p>
+                      <a href={info.href} className="text-zinc-600 hover:text-black transition-colors">
                         {info.value}
                       </a>
                     </div>

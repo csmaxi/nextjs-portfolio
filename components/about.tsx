@@ -21,16 +21,16 @@ export function About() {
   ]
 
   return (
-    <section id="sobre-mi" className="py-20 bg-white border-t border-gray-200">
+    <section id="sobre-mi" className="py-20 bg-white border-t border-zinc-200" style={{ fontFamily: '__nextjs-Geist' }}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-black mb-6" style={{ fontFamily: '__nextjs-Geist' }}>
             Sobre mí
           </h2>
 
-          <Card className="mb-16 shadow-sm border border-gray-100">
+          <Card className="mb-16 shadow-lg border border-zinc-200">
             <CardContent className="p-8 md:p-10">
-              <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
+              <div className="space-y-6 text-zinc-700 text-lg leading-relaxed">
                 <p>
                 Soy un desarrollador Full Stack con más de 4 años de experiencia creando aplicaciones web modernas y escalables. Me enfoco en escribir código limpio, construir interfaces intuitivas y aplicar buenas prácticas de arquitectura. Busco siempre aprender y mantenerme al día con las últimas herramientas para entregar soluciones sólidas y de calidad.
                 </p>
@@ -49,14 +49,14 @@ export function About() {
             {features.map((feature, index) => (
               <Card
                 key={index}
-                className="text-center border border-gray-200 hover:shadow-md hover:border-blue-100 transition-all duration-200"
+                className="text-center border border-zinc-200 hover:shadow-lg hover:border-zinc-300 transition-all duration-200"
               >
                 <CardContent className="p-6">
                   <div className="flex justify-center mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  <h3 className="text-xl font-semibold text-black mb-2">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600">{feature.description}</p>
+                  <p className="text-zinc-600">{feature.description}</p>
                 </CardContent>
               </Card>
             ))}

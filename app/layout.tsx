@@ -3,8 +3,8 @@ import './globals.css'
 import { Footer } from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Maxi Nuñez - Desarrollador Full Stack',
-  description: 'Portfolio de Maxi Nuñez, Desarrollador Full Stack especializado en Next.js y Reactsssssssss',
+  title: 'Maxi Nuñez - Full Stack Developer',
+  description: 'Portfolio de Maxi Nuñez, Full Stack Developer especializado en Next.js y React',
   generator: 'Next.js',
 }
 

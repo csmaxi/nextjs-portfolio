@@ -17,17 +17,17 @@ export function Header() {
   ]
 
   return (
-    <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b z-50">
+    <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-zinc-200 shadow-sm z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
+          <Link href="/" className="text-2xl font-bold text-black">
             Portafolio
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navItems.map((item) => (
-              <Link key={item.name} href={item.href} className="text-gray-700 hover:text-gray-900 transition-colors">
+              <Link key={item.name} href={item.href} className="text-zinc-700 hover:text-black transition-colors font-medium">
                 {item.name}
               </Link>
             ))}
@@ -41,12 +41,12 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t">
+          <nav className="md:hidden py-4 border-t border-zinc-200">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="block py-2 text-gray-700 hover:text-gray-900 transition-colors"
+                className="block py-2 text-zinc-700 hover:text-black transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}

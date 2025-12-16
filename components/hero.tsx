@@ -1,80 +1,33 @@
 "use client"
-import { Button } from "@/components/ui/button"
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
-import Link from "next/link"
-import { useEffect } from "react"
 
 export function Hero() {
-  useEffect(() => {
-    // Add smooth scrolling behavior to the entire page
-    document.documentElement.style.scrollBehavior = 'smooth'
-  }, [])
-
-  const handleDownloadCV = () => {
-    // Replace with your actual CV file path
-    window.open('/cvmaxi2025.pdf', '_blank')
-  }
-
   return (
-    <section
-      id="inicio"
-      className="min-h-screen flex items-center justify-center bg-white"
-    >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl sm:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
-            <span className="block text-blue-600">Maxi Nuñez</span>
-            Desarrollador Full Stack
+    <section className="flex items-center justify-center bg-white" style={{ fontFamily: '__nextjs-Geist' }}>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto text-center pt-3 pb-3">
+          <h1 className="text-5xl sm:text-6xl font-bold text-black mb-4">
+            Maxi Nuñez
           </h1>
-
-          <p className="text-lg sm:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto">
-            Especializado en Next.js y React. Apasionado por crear soluciones web eficientes, escalables y con un diseño limpio.
+          <p className="text-xl sm:text-2xl text-zinc-700 mb-12">
+            Fullstack Developer | SaaS Builder
           </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-            <Link href="#proyectos">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Ver proyectos
-              </Button>
-            </Link>
-            <Button size="lg" variant="outline" onClick={handleDownloadCV}>
-              Descargar CV
-            </Button>
+          
+          <div className="flex justify-center gap-6 text-zinc-600">
+            <a 
+              href="mailto:csmaxinro@gmail.com" 
+              className="hover:text-black transition-colors font-medium"
+            >
+              Email
+            </a>
+            <a 
+              href="https://wa.me/542966241623?text=Hola%20Maxi!%20Vi%20tu%20portafolio%20y%20me%20gustaría%20hablar%20contigo%20sobre%20un%20proyecto." 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-black transition-colors font-medium"
+            >
+              WhatsApp
+            </a>
           </div>
-
-          <div className="flex justify-center space-x-6 mb-12">
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              className="rounded-full border border-gray-300" 
-              aria-label="GitHub"
-              onClick={() => window.open('https://github.com/csmaxi', '_blank')}
-            >
-              <Github className="h-6 w-6" />
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              className="rounded-full border border-gray-300" 
-              aria-label="LinkedIn"
-              onClick={() => window.open('https://www.linkedin.com/in/csmaxi/', '_blank')}
-            >
-              <Linkedin className="h-6 w-6" />
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              className="rounded-full border border-gray-300" 
-              aria-label="Email"
-              onClick={() => window.open('mailto:csmaxinro@gmail.com', '_blank')}
-            >
-              <Mail className="h-6 w-6" />
-            </Button>
-          </div>
-
-          <Link href="#sobre-mi" className="block">
-            <ArrowDown className="h-8 w-8 mx-auto text-gray-400 animate-bounce hover:text-gray-600 transition-colors cursor-pointer" />
-          </Link>
         </div>
       </div>
     </section>

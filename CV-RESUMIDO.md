@@ -1,0 +1,36 @@
+# Maximiliano Núñez
+## Fullstack Developer
+
+**Argentina** • csmaxinro@gmail.com • 2966241623  
+**Portafolio:** https://csmaxi-portafolio.vercel.app/
+
+---
+
+### Perfil
+Desarrollador Fullstack especializado en **SaaS**, **Next.js** y **Cursor AI**. Enfocado en crear aplicaciones web modernas, escalables y de alto rendimiento. Experiencia en desarrollo con **vibe coding** y arquitectura eficiente.
+
+---
+
+### Stack Principal
+
+**Frontend:** React 18, Next.js, TypeScript, Tailwind CSS, Shadcn UI  
+**Backend:** Supabase, PostgreSQL, REST APIs  
+**Herramientas:** Cursor AI, Vercel, GitHub, Zustand, React Hook Form, Zod
+
+---
+
+### Experiencia
+
+• Desarrollo fullstack con Next.js 14 y Supabase  
+• UI modernas y responsive con Tailwind CSS y Shadcn  
+• Autenticación y autorización con Supabase Auth  
+• Integraciones: MercadoPago, WhatsApp Business API  
+• Deploy automatizado en Vercel con CI/CD  
+• Optimización de rendimiento y bundle size
+
+---
+
+### Idiomas
+
+Español: Nativo | Inglés: Técnico intermedio
+
