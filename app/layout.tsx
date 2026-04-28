@@ -1,26 +1,19 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { Footer } from '@/components/footer'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Maxi Nuñez - Full Stack Developer',
-  description: 'Portfolio de Maxi Nuñez, Full Stack Developer especializado en Next.js y React',
-  generator: 'Next.js',
-}
+  title: "Maxi Núñez | Fullstack Developer & SaaS Builder",
+  description: "Convierto ideas en aplicaciones web completas. Proyectos SaaS desplegados con Next.js, TypeScript y PostgreSQL.",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="es">
-      <body className="min-h-screen flex flex-col">
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
